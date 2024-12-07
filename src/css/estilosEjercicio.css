@@ -1,0 +1,26 @@
+/* Estilos para la tabla */
+#tablaDinamica {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#tablaDinamica th,
+#tablaDinamica td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+#tablaDinamica th{
+    background-color: silver;
+    color: brown;
+}
+
+/* Eliminar puntos de las listas */
+#listaDinamica {
+    list-style-type: none;
+}
+
+#listaDinamica li ul li {
+    list-style: square;
+}
